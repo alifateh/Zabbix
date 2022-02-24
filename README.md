@@ -1,8 +1,9 @@
 # Zabbix
-Zabbix-Templates -And-EXscripts
+* All Templates are test on Version 3 and Higher
+* All Scripts (External / Alert) are Need Php ver 7.0 or Higher
+* All Scripts Save Logs on DataBase so Need DSN (Data Source Name) & Also User with Garanted Access
 
-Zabbix Version 3 or higher
-Devices :
-MiMOSA
-WIMAX
-RACOM
+Golden Template for Devices :
+MiMOSA Radio
+WIMAX Samsung
+RACOM Radio
