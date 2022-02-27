@@ -13,10 +13,10 @@ setlocale(LC_ALL, 'C.UTF-8');
 
 function logToDB($to, $body, $subject)
 {
-    $servername = "192.168.200.125";
-    $username = "ZbxUser";
-    $password = "Xperi@530";
-    $dbname = "sms";
+    $servername = "";
+    $username = "";
+    $password = "";
+    $dbname = "";
 
     try {
         $pdo = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -38,7 +38,7 @@ function logToDB($to, $body, $subject)
     }
 }
 
-$url = "https://chat.fanaptelecom.ir/api/v1/external/zabbix?api_key=EOMXNjAFzc4zvoECnD8Gbo9Rpydryd9P&stream=zabbix";
+$url = "https://chat.fanaptelecom.ir/api/v1/external/zabbix?api_key=...=zabbix";
 $ch = curl_init($url);
 
 
