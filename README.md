@@ -8,3 +8,4 @@ Golden Template for Devices :
 MiMOSA Radio
 WIMAX Samsung
 RACOM Radio
+Fanap Version
